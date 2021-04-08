@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gtf=r1=/path/to/GENCODE.gtf
+gtf=/path/to/GENCODE.gtf
 
 cuffnorm --no-update-check -p 8 --use-sample-sheet -o final_out GENCODE.gtf sample_sheet.txt
 

@@ -3,7 +3,7 @@
 
 > reference: http://cole-trapnell-lab.github.io/cufflinks/
 
-The pipeline steps:
+Pipeline steps:
 1. Tophat
 2. Cuffquant
 3. Cuffnorm

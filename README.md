@@ -1,4 +1,4 @@
-# scRNA-seq_using_Cufflinks
+# scRNA-seq analysis using Cufflinks
 ### Topha-Cufflinks pipeline for single-cell RNA-seq analysis
 
 > reference: http://cole-trapnell-lab.github.io/cufflinks/

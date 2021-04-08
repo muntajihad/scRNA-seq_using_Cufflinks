@@ -8,4 +8,4 @@ Pipeline steps:
 2. Cuffquant
 3. Cuffnorm
 
-**At the end of the pipeline Cuffnorm will generate folder contains multiple "table" files that are ready to be analyzed in R by (Monocle)[https://cole-trapnell-lab.github.io/monocle3/]**
+**At the end of the pipeline Cuffnorm will generate folder contains multiple "table" files that are ready to be analyzed in R by [Monocle](https://cole-trapnell-lab.github.io/monocle3/)**

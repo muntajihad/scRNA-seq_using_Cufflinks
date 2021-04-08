@@ -1,0 +1,5 @@
+sample_name     ID
+/path/to/cell_01_cuffqout/abundances.cxb       cell_01
+/path/to/cell_02_cuffqout/abundances.cxb       cell_02
+/path/to/cell_03_cuffqout/abundances.cxb       cell_03
+/path/to/cell_04_cuffqout/abundances.cxb       cell_04

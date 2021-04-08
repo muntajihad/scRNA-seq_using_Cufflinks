@@ -8,30 +8,4 @@ Pipeline steps:
 2. Cuffquant
 3. Cuffnorm
 
-> **At the end of the pipeline Cuffnorm will generate folder contains:**
-> cds.attr_table
-> 
-> cds.count_table
-> 
-> cds.fpkm_table
-> 
-> genes.attr_table
-> 
-> genes.count_table
-> 
-> genes.fpkm_table
-> 
-> isoforms.attr_table
-> 
-> isoforms.count_table
-> 
-> isoforms.fpkm_table
- 
-> run.info
-
-> samples.table
-> 
-> tss_groups.attr_table
-> 
-> tss_groups.count_table
-> tss_groups.fpkm_table
+**At the end of the pipeline Cuffnorm will generate folder contains multiple "table" files that are ready to be analyzed in R by (Monocle)[https://cole-trapnell-lab.github.io/monocle3/]**

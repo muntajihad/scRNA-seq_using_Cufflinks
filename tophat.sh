@@ -3,13 +3,11 @@
 gtf=/path/to/GENCODE.gtf
 genome=/path/to/reference_genome #indexed by Bowtie
 
-tophat -p 8 -o cell_01_topout -G $gtf $genome cell_01.R1.fastq.gz cell_01.R2.fastq.gz
-tophat -p 8 -o cell_02_topout -G $gtf $genome cell_02.R1.fastq.gz cell_02.R2.fastq.gz
-tophat -p 8 -o cell_03_topout -G $gtf $genome cell_03.R1.fastq.gz cell_03.R2.fastq.gz
-tophat -p 8 -o cell_04_topout -G $gtf $genome cell_04.R1.fastq.gz cell_04.R2.fastq.gz
-
+for i in (ls *.gz | cut -5 | uniq);
+do
+tophat -p 8 -o ${i}_topout -G $gtf $genome ${i}R1.fastq.gz {i}R2.fastq.gz;
+done
 
 # At the end of the process "topout" folder will be generated for each sample contains multiple files.
-# "accepted_hits.bam" file of each sample will be used in Cufflinks pipeline.
-
-#Next, cuffquant will be used
+# "accepted_hits.bam" file of each sample will be used in Cufflinks pipeline
+# Next, cuffquant will be used
